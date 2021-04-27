@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+         <link rel="stylesheet" href="style.css">
+    <title>Shopping Cart</title>
+</head>
+
+<body>
+
+<Header>
+<ul style="width=100%">
+   <a href="index.html" class="cart">
+  <li><i class='fas fa-leaf'></i></li>
+  </a>
+  <li><i class="fas fa-shopping-cart"></i>
+  <a href="shopping-cart.html" class="cart">
+  <button class="button basket">0</button>
+  </a>
+  </li>  
+</ul>
+</Header>
+
+<div class="namesection">
+<div class="CategorySection">
+<ul>
+  <li><a href="javascript:void(0)" id="all" onclick="showCatDiv('all')" class="active">All Categories</a></li>
+  <li><a href="javascript:void(0)" id="bread" onclick="showCatDiv('bread')">Bread</a></li>
+  <li><a href="javascript:void(0)"  id="Dairy" onclick="showCatDiv('Dairy')">Dairy</a></li>
+  <li><a href="javascript:void(0)"  id="Fruits" onclick="showCatDiv('Fruits')">Fruits</a></li>
+  <li><a href="javascript:void(0)"  id="Spices" onclick="showCatDiv('Spices')">Seasonings and Spices</a></li>
+  <li><a href="javascript:void(0)" id="Vegetables"  onclick="showCatDiv('Vegetables')">Vegetables</a></li>
+</ul>
+</div>
+
+<div class="categoryData">
+
+<div class="container menusection Vegetables" >
+  <div class="card">
+    <img src="spinach.jpg" alt="Spinach" style="width:100%">
+    <h2>Spinach</h2>
+    <p>$8.70</p>
+    <a class="add-cart cart1" href="#" alt="veg">ADD TO CART</a>  
+  </div>
+  <div class="card">
+    <img src="broccoli.jpg" alt="broccoli" style="width:100%">
+    <h2>Broccoli</h2>
+    <p>$12.50</p>
+    <a class="add-cart cart2" href="#" alt="veg">ADD TO CART</a>  
+  </div>
+  <div class="card">
+    <img src="cabbage.jpg" alt="cabbage" style="width:100%">
+    <h2>Cabbage</h2>
+    <p>$10.50</p>
+    <a class="add-cart cart3" href="#" alt="veg">ADD TO CART</a>  
+  </div>
+  <div class="card">
+    <img src="apple.jpg " alt="apple" style="width:100%">
+    <h2 class="card-details">Apple</h2>
+    <p>$6.50</p>
+    <a class="add-cart cart4" href="#" alt="veg">ADD TO CART</a> 
+  </div>
+   <div class="card">
+    <img src="cucumber.jpg " alt="cucumber" style="width:100%">
+    <h2 class="card-details">Tomato</h2>
+    <p>$4.50</p>
+    <a class="add-cart cart5" href="#" alt="veg">ADD TO CART</a> 
+  </div>
+   <div class="card">
+    <img src="watermelon.jpg " alt="watermelon" style="width:100%">
+    <h2 class="card-details">Watermelon</h2>
+    <p>$20.00</p>
+    <a class="add-cart cart6" href="#" alt="veg">ADD TO CART</a> 
+  </div>
+
+</div>
+
+<div class="container menusection bread" >
+  <div class="card">
+    <img src="freshlybakedbread.jpg" alt="freshlybakedbread" style="width:100%">
+    <h2>BakedBread</h2>
+    <p>$1.00</p>
+    <a class="add-cart cart7" href="#" alt="veg">ADD TO CART</a>  
+  </div>
+    <div class="card">
+    <img src="bakedbread.jpg" alt="freshlybakedbread" style="width:100%">
+    <h2>ChoclateBread</h2>
+    <p>$40.00</p>
+    <a class="add-cart cart8" href="#" alt="veg">ADD TO CART</a>  
+  </div>
+</div>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
